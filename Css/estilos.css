@@ -1,0 +1,101 @@
+
+/* Estilos generales */
+body {
+    background-color: #f3f4f6;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    gap: 16px;
+    flex-direction: column;
+  }
+  
+  
+  /*estilos de alerta*/
+  .alert {
+    border-left-width: 4px;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    max-width: 600px;
+    background-color: #f0f4f8;
+  }
+  
+  /* colores del tipo de alerta */
+  .alert-info {
+    border-left-color: #3b82f6;
+    background-color: #dbeafe;
+  }
+  .alert-danger {
+    border-left-color: #ef4444;
+    background-color: #fee2e2;
+  }
+  .alert-success {
+    border-left-color: #10b981;
+    background-color: #d1fae5;
+  }
+  
+  /*Estilos de icono*/
+  .icon {
+    margin-right: 12px;
+    flex-shrink: 0;
+  }
+  .icon-info { color: #3b82f6; }
+  .icon-danger { color: #ef4444; }
+  .icon-success { color: #10b981; }
+  
+  /*Estilos de contenido*/
+  .alert-content {
+    flex: 1;
+  }
+  .alert-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .alert-info .alert-title { color: #1e40af; }
+  .alert-danger .alert-title { color: #b91c1c; }
+  .alert-success .alert-title { color: #064e3b; }
+  
+  .alert-text {
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  /*Botones*/
+  .buttons {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+  }
+  .btn {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+  }
+  .btn-view {
+    color: #ffffff;
+  }
+  .btn-dismiss {
+    background-color: #ffffff;
+    border: 1px solid;
+  }
+  
+  /*Colores de botones según alerta*/
+  .alert-info .btn-view { background-color: #3b82f6; }
+  .alert-info .btn-dismiss { color: #3b82f6; border-color: #3b82f6; }
+  .alert-danger .btn-view { background-color: #ef4444; }
+  .alert-danger .btn-dismiss { color: #ef4444; border-color: #ef4444; }
+  .alert-success .btn-view { background-color: #10b981; }
+  .alert-success .btn-dismiss { color: #10b981; border-color: #10b981; }
+  
+  /*Hover efecto*/
+  .btn-view:hover { opacity: 0.9; }
+  .btn-dismiss:hover { background-color: #f3f4f6; }
+  

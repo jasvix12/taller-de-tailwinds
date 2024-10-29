@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/tarjeta-perfil.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <div class="profile-card">
+        <div class="profile-options">⋮</div>
+        <img src="imagenes/foto.jpeg" alt="foto de jasvi" class="profile-image">
+        <h2>Jasvi Alvarez</h2>
+        <p class="job-title">Desarrollador de software</p>
+        <div class="profile-buttons">
+            <button class="add-friend" onclick="addToFriends(this)">Agregar amigo</button>
+            <button class="message">Mensaje</button>
+        </div>
+    </div>
+
+    <script>
+        function addToFriends(button) {
+            button.innerText = "Agregado a lista de amigos";
+            button.style.backgroundColor = "#28a745"; // Cambia el color a verde
+            button.style.cursor = "default";
+            button.disabled = true; // Deshabilita el botón
+        }
+    </script>
+</body>
+</html>
+
