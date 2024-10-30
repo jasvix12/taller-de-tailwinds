@@ -1,5 +1,5 @@
 
-/* Estilos generales */
+
 body {
     background-color: #f3f4f6;
     padding: 24px;
@@ -14,7 +14,7 @@ body {
   }
   
   
-  /*estilos de alerta*/
+  
   .alert {
     border-left-width: 4px;
     padding: 16px;
@@ -25,7 +25,7 @@ body {
     background-color: #f0f4f8;
   }
   
-  /* colores del tipo de alerta */
+  
   .alert-info {
     border-left-color: #3b82f6;
     background-color: #dbeafe;
@@ -39,7 +39,7 @@ body {
     background-color: #d1fae5;
   }
   
-  /*Estilos de icono*/
+  
   .icon {
     margin-right: 12px;
     flex-shrink: 0;
@@ -48,7 +48,7 @@ body {
   .icon-danger { color: #ef4444; }
   .icon-success { color: #10b981; }
   
-  /*Estilos de contenido*/
+  
   .alert-content {
     flex: 1;
   }
@@ -65,7 +65,7 @@ body {
     color: #4b5563;
   }
   
-  /*Botones*/
+  
   .buttons {
     margin-top: 12px;
     display: flex;
@@ -87,7 +87,7 @@ body {
     border: 1px solid;
   }
   
-  /*Colores de botones según alerta*/
+ 
   .alert-info .btn-view { background-color: #3b82f6; }
   .alert-info .btn-dismiss { color: #3b82f6; border-color: #3b82f6; }
   .alert-danger .btn-view { background-color: #ef4444; }
@@ -95,7 +95,7 @@ body {
   .alert-success .btn-view { background-color: #10b981; }
   .alert-success .btn-dismiss { color: #10b981; border-color: #10b981; }
   
-  /*Hover efecto*/
+  
   .btn-view:hover { opacity: 0.9; }
   .btn-dismiss:hover { background-color: #f3f4f6; }
   
