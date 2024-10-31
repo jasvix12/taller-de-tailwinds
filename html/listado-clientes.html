@@ -1,52 +1,83 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listado de Clientes</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listado de Clientes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-gray-100 p-6 flex items-center justify-center">
 
-    <h1 class="text-2xl font-bold mb-6 text-center">Listado de Clientes</h1>
 
-    <div class="block md:hidden space-y-4">
-        <div class="bg-white p-4 rounded-lg shadow-md border border-gray-200">
-            <h2 class="text-lg font-semibold text-gray-700">Juan Pérez</h2>
-            <p class="text-gray-500">Correo Electrónico: juanperez@gmail.com</p>
-            <p class="text-gray-500">Teléfono: 3002359549</p>
-            <div class="mt-4 flex space-x-2">
-            </div>
-        </div>
+  <div class="bg-white shadow-md rounded-lg p-4 w-full max-w-sm sm:max-w-md">
+    <div class="flex justify-between items-center mb-4">
+      <h2 class="text-lg font-semibold text-gray-800">Ultimos Clientes</h2>
+      <a href="#" class="text-blue-500 hover:underline">Ver todo</a>
+    </div>
+
     
-    <div class="block md:hidden space-y-4">
-        <div class="bg-white p-4 rounded-lg shadow-md border border-gray-200">
-            <h2 class="text-lg font-semibold text-gray-700">Jasvi Alvarez</h2>
-            <p class="text-gray-500">Correo Electrónico:jasbi030803@gmail.com</p>
-            <p class="text-gray-500">Teléfono:3206039549</p>
-            <div class="mt-4 flex space-x-2">
-               
-            </div>
+    <ul class="space-y-4">
+      
+      <li class="flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="w-10 h-10 rounded-full">
+          <div>
+            <p class="font-medium text-gray-900">Jasvi Alvarez</p>
+            <p class="text-sm text-gray-500">jasvialvarez@gmail.com</p>
+          </div>
         </div>
+        <p class="font-medium text-gray-900">$320</p>
+      </li>
 
-        <div class="block md:hidden space-y-4">
-        <div class="bg-white p-4 rounded-lg shadow-md border border-gray-200">
-            <h2 class="text-lg font-semibold text-gray-700">Manuel García</h2>
-            <p class="text-gray-500">Correo Electrónico: manuel.garcia@gmail.com</p>
-            <p class="text-gray-500">Telefono:3122740608</p>
-           
-     </div>
-    </div>
+      <!-- Cliente 2 -->
+      <li class="flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="w-10 h-10 rounded-full">
+          <div>
+            <p class="font-medium text-gray-900">Bairon Pacheco</p>
+            <p class="text-sm text-gray-500">BaironPacheco@gmail.com</p>
+          </div>
+        </div>
+        <p class="font-medium text-gray-900">$3467</p>
+      </li>
 
-    <div class="block md:hidden space-y-4">
-    <div class="bg-white p-4 rounded-lg shodow-md border border-gray-200">
-        <h2 class="text-lg font-semibold text-gray-700">Bairon pacheco</h2>
-        <p class="text-gray-500">Correo Electronico: baironpacheco@gmail.com</p>
-        <p class="text-gray-500">Telefono: 3161563512</p>
-    
-    </div>
-    </div>
-</body>
-</html>
+      <!-- Cliente 3 -->
+      <li class="flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="w-10 h-10 rounded-full">
+          <div>
+            <p class="font-medium text-gray-900">Edinson Samboni</p>
+            <p class="text-sm text-gray-500">EdinsonSamboni@gmail.com</p>
+          </div>
+        </div>
+        <p class="font-medium text-gray-900">$67</p>
+      </li>
+
+      <!-- Cliente 4 -->
+      <li class="flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="w-10 h-10 rounded-full">
+          <div>
+            <p class="font-medium text-gray-900">Vanessa Narvaez</p>
+            <p class="text-sm text-gray-500">Vanessanarvaez@gmail.com</p>
+          </div>
+        </div>
+        <p class="font-medium text-gray-900">$367</p>
+      </li>
+
+      <!-- Cliente 5 -->
+      <li class="flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="w-10 h-10 rounded-full">
+          <div>
+            <p class="font-medium text-gray-900">Jhonatan Samboni</p>
+            <p class="text-sm text-gray-500">Jhonatansamboni@gmail.com</p>
+          </div>
+        </div>
+        <p class="font-medium text-gray-900">$2367</p>
+      </li>
+    </ul>
+  </div>
 
 </body>
 </html>
